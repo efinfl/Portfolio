@@ -1,0 +1,48 @@
+/* font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Fira Sans', sans-serif; 
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+* {
+    box-sizing: border-box;
+ }
+
+#profilePic {
+    height: 60px;
+    width: 60px;
+    margin-top: .5em;
+}
+
+h5 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+}
+
+h6 {
+    font-family: "Robot", sans-serif;
+    font-weight: 300;
+    line-height: .5em;
+}
+
+.parallax-container {
+    height: 200px;
+}
+
+#parTop {
+    height: 100px;
+}
+
+
+#projectsSecion {
+    min-height: 250px;
+}
+
+
+
+/* .card-image {
+} */
+
+.card-title {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+}
