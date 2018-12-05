@@ -8,8 +8,8 @@ font-family: 'Roboto', sans-serif;*/
  }
 
 #profilePic {
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
     margin-top: .5em;
 }
 
@@ -18,7 +18,7 @@ h5 {
     font-weight: 400;
 }
 
-h6 {
+h6, h4 {
     font-family: "Robot", sans-serif;
     font-weight: 300;
     line-height: .5em;
@@ -46,3 +46,18 @@ h6 {
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 300;
 }
+
+#banner {
+    margin-bottom: 1em;
+}
+#projectsTitle, .myDivider {
+    margin-bottom: 1em;
+}
+#bannerDividerBtm {
+    margin-bottom: -.5em;
+}
+
+#bannerDividerTp {
+    margin-bottom: 1em;
+}
+

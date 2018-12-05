@@ -36,75 +36,23 @@
 <body>
 
     <!-- ================================ profile pic, name, occupation ================================  -->
-    <!-- <nav class="nav-wrapper">
-        <div class="container">
-            <a href="#" class="brand-logo center"><img id="profilePic" src="assets/images/IMG_4559_edited.jpg" class="circle responsive-img"></a>
-            <a href="#" class="sidenav-trigger show" data-target="mobile-links">
-                <i class="material-icons">contacts</i>
-            </a>
-            <ul class="right hide">
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-            </ul>
+
+    <div class="row container">
+        <div clas="section center">
+            <div class="center" id="banner">
+                <a href="#" class="brand-logo center"><img id="profilePic" src="assets/images/IMG_4559_edited.jpg"
+                        class="circle responsive-img">
+                </a>
+                <h5 class="black-text">ERIC FIGUEROA</h5>
+                <h6 class="black-text">FULL-STACK WEB DEVELOPER</h6>
+            </div>
         </div>
+        <div class="divider myDivider" id="bannerDividerBtm"></div>
 
-    </nav>
-
-    <ul class="sidenav" id="mobile-links">
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
-    </ul> -->
-    
-    <div clas="section center">
-        <div class=center>
-            <a href="#" class="brand-logo center"><img id="profilePic" src="assets/images/IMG_4559_edited.jpg" class="circle responsive-img"></a>
-
-            <h5 class="black-text center">ERIC FIGUEROA</h5>
-            <h6 class="black-text center">FULL-STACK WEB DEVELOPER</h6>
-        </div>
     </div>
 
-    <div class="section"></div>
 
     <continer>
-        <!-- <div class="container">
-            <nav class="white z-depth-0">
-                <div class="nav-wrapper">
-                    <ul id="slide-out" class="sidenav">
-                        <li>
-                            <div class="user-view">
-                                <div class="background">
-                                    <img src="assets/images/IMG_4559_edited.jpg">
-                                </div>
-                                <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
-                                <a href="#name"><span class="white-text name">John Doe</span></a>
-                                <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
-                            </div>
-                        </li>
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 2</a></li>
-                        <li><a href="#">Link 3</a></li>
-                    </ul>
-                    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">contacts</i></a>
-
-                    <span class="brand-logo center"><img id="profilePic" src="assets/images/IMG_4559_edited.jpg" class="circle responsive-img"></span>
-
-                </div>
-            </nav>
-
-
-            <div clas="section">
-                <div href="#" class="brand-logo">
-                    <h5 class="black-text center">ERIC FIGUEROA</h5>
-                    <h6 class="black-text center">FULL-STACK WEB DEVELOPER</h6>
-                </div>
-            </div>
-        </div> -->
-
-
-
 
         <!-- ================================ Top Prallax ====================================-->
         <div class="parallax-container z-depth-2" id="parTop">
@@ -116,19 +64,68 @@
         <div class="section white" id="projectsSecion">
             <div class="row container">
                 <div class="row">
-                    <h6 class="center">PROJECTS</h6>
-                    <div class="col s12 m4">
+
+                    <div id="projectsTitle">
+                        <h6 class="center">PROJECTS</h6>
+                    </div>
+
+                    <div class="divider myDivider"></div>
+
+                    <!-- Card 1 -->
+                    <div class="col s12 m3">
                         <div class="card">
-                            <div class="card-content">
-                                <span class="card-title grey-text">Crystal Collector Game</span>
-                                <p>A number guessing game.</p>
+                            <div class="card-image">
+                                <img src="./assets/images/NotStarbucks.png">
                             </div>
-                            <div class="card-action">
-                                <a href="#">EXPLORE APP</a>
+                            <div class="card-content">
+                                <a href="https://github.com/Srqgal70/NotStarbucks" target="_blank" class="waves-effect waves-light btn-small light-blue darken-2">Not
+                                    Starbucks</a>
                             </div>
                         </div>
                     </div>
+                    <!-- ============== -->
+
+                    <!-- Card 2 -->
+                    <div class="col s12 m3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./assets/images/TrainSchedule.png">
+                            </div>
+                            <div class="card-content">
+                                <a href="https://github.com/efinfl/Train_Schedule" target="_blank" class="waves-effect waves-light btn-small light-blue darken-2">Train
+                                    Schedule</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============== -->
+                    <!-- Card 3 -->
+                    <div class="col s12 m3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./assets/images/Giftastic.png">
+                            </div>
+                            <div class="card-content">
+                                <a href="https://github.com/efinfl/GifTastic" target="_blank" class="waves-effect waves-light btn-small light-blue darken-2">Giftastic</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============== -->
+                    <!-- Card 4 -->
+                    <div class="col s12 m3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./assets/images/CrystalGame.png">
+                            </div>
+                            <div class="card-content">
+                                <a href="https://github.com/efinfl/Crystal-Collection-Game" target="_blank" class="waves-effect waves-light btn-small light-blue darken-2">Crystal
+                                    Collector</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============== -->
+
                 </div>
+                <div class="divider myDivider"></div>
             </div>
         </div>
 
@@ -139,28 +136,36 @@
 
 
         <!-- ================================ Footer ================================ -->
-        <footer class="page-footer grey">
-            <div class="container">
+        <footer class="page-footer blue-grey lighten-4">
+            <section class="section container" id="contact">
                 <div class="row">
-                    <div class="col l6 s12">
-                        <h5 class="white-text">Footer Content</h5>
-                        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
-                            content.</p>
+                    <div class="col s12 m4">
+                        <h4 class="blue-grey-text darken-4">CONTACT ME</h4>
                     </div>
-                    <div class="col l4 offset-l2 s12">
-                        <h5 class="white-text">Links</h5>
-                        <ul>
-                            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                        </ul>
+                    <div class="col s12 m6">
+                        <form action="">
+                            <div class="input-field blue-grey-text darken-4">
+                                <input type="text" id="name">
+                                <label for="name">YOUR NAME</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="email" id="email">
+                                <label for="email">EMAIL</label>
+                            </div>
+                            <div class="input-field">
+                                <textarea id="message" class="materialize-textarea"></textarea>
+                                <label for="message">MESSAGE</label>
+
+                            </div>
+                        </form>
                     </div>
+
                 </div>
-            </div>
-            <div class="footer-copyright">
+
+            </section>
+            <div class="footer-copyright blue-grey lighten-1">
                 <div class="container">
-                    © 2014 Copyright Text
+                    © 2018 Copyright
                     <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
                 </div>
             </div>
