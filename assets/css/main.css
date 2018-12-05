@@ -8,20 +8,21 @@ font-family: 'Roboto', sans-serif;*/
  }
 
 #profilePic {
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
     margin-top: .5em;
 }
 
-h5 {
+#name {
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 400;
 }
 
-h6, h4 {
+h6, h4, p {
     font-family: "Robot", sans-serif;
     font-weight: 300;
-    line-height: .5em;
+    line-height: 100%;
+
 }
 
 .parallax-container {
@@ -47,17 +48,30 @@ h6, h4 {
     font-weight: 300;
 }
 
-#banner {
+ #bannerSection {
+    margin: 0;
+    padding: 0;
+}
+
+#projectsTitle, {
+    margin-bottom: 1em;
+    
+}
+
+.myDivider {
+    background-color: #b0bec5;
     margin-bottom: 1em;
 }
-#projectsTitle, .myDivider {
-    margin-bottom: 1em;
-}
+
 #bannerDividerBtm {
     margin-bottom: -.5em;
 }
 
 #bannerDividerTp {
     margin-bottom: 1em;
+}
+
+#contactRAling {
+    line-height: 100%;
 }
 
