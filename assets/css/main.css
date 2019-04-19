@@ -107,3 +107,7 @@ h6, h4, p {
 .cardMinHeight {
     min-height: 210px;
 }
+
+.card-title {
+    margin-bottom: 5px;
+}
